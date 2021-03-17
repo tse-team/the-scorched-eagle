@@ -1,0 +1,58 @@
+bookmarks = {
+	bookmark = {
+		name = GATHERING_STORM_NAME
+		desc = GATHERING_STORM_DESC	
+		date = 2025.1.1.1
+		picture = GFX_select_date_1936
+		
+		
+		default = yes
+		
+		# Defaults the selection to the specified tag
+		default_country = USA
+		
+		# Adds a country to the selection
+		<tag> = {
+			history = <localized string>	# Description of the history for the country
+			ideology = <ideology>		# The initial ideology of the country
+			minor = yes			# Makes this country a minor in the selection screen (If it is a minor country, it must not use the default focus, otherwise it will not appear on the selection screen)
+			
+			# Hides this selection if the triggers are not met
+			available = {
+				<triggers>
+			}
+			
+			# Ideas the country to display on the country's selection. (Max 3)
+			ideas = {
+				<idea>
+				<idea>
+				<idea>
+			}
+			
+			# National focuses to display on the country's selection. (Max 3)
+			focuses = {
+				<focus>
+				<focus>
+				<focus>
+			}
+		}
+		
+		# Required to allow the player to enter the free selection screen
+		"---" = {
+			history = <localized string>
+		}
+		
+		# Effects to execute when the bookmark is selected
+		effect = {
+			randomize_weather = 12345   # Required
+			<effects>
+		}
+	}
+}
+
+bookmark = {
+	name = ""
+	desc = ""
+	date = 2025.1.1.1
+	picture = "GFX_select_date_1936"
+	default_country = USA
