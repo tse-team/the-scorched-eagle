@@ -1,0 +1,83 @@
+focus_tree = {
+	id = USA_trump_ending
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CAN
+		}
+	}
+	#Focus for The Dream Lives On
+	focus = {
+		id = USA_the_dream_lives_on
+		icon = GFX_USA_the_dream_lives_on-86140
+		x = 7
+		y = 3
+		cost = 0.8
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = USA_the_best_economy 
+		}
+		prerequisite = { 
+			focus = USA_the_best_president 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		custom_effect_tooltip = USA_dream_tt
+		}
+	}
+
+	#Focus for The Best Economy
+	focus = {
+		id = USA_the_best_economy
+		icon = GFX_USA_the_best_economy-84851
+		x = 9
+		y = 2
+		cost = 0.8
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_the_finest_job }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		custom_effect_tooltip = USA_economy_tt
+		}
+	}
+
+	#Focus for The Best President
+	focus = {
+		id = USA_the_best_president
+		icon = GFX_USA_the_best_president-87280
+		x = 5
+		y = 2
+		cost = 0.8
+		available_if_capitulated = yes
+		prerequisite = { focus = USA_the_finest_job }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		custom_effect_tooltip = USA_president_tt
+		}
+	}
+
+	#Focus for The Finest Job
+	focus = {
+		id = USA_the_finest_job
+		icon = GFX_USA_the_finest_job-85908
+		x = 7
+		y = 1
+		cost = 0.8
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		custom_effect_tooltip = USA_job_tt
+		}
+	}
+
+#End of focuses 
+ }
