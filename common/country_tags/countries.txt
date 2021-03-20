@@ -1,0 +1,2 @@
+USA = "countries/Republic of Texas.txt"
+TRX = "countries/Republic of Texas.txt"
