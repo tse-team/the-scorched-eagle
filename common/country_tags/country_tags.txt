@@ -1,0 +1,5 @@
+USA = "countries/United States.txt"
+CAN = "countries/Canada.txt"
+MEX = "countries/Mexico.txt"
+SOV = "countries/Soviet Union.txt"
+PRC = "countries/People's Republic of China.txt"
