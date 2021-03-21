@@ -1,0 +1,21 @@
+ideas = {
+	country = {
+
+		USA_failures_of_warp_speed = {
+			picture =
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.5
+			}
+		}
+
+		USA_political_polarization = {
+			picture =
+			modifier = {
+				stability_factor = -0.5
+				political_power_gain = -0.5
+				communism_drift = -0.01
+			}
+		}
+	}
+}
