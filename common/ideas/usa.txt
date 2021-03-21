@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 
-		USA_failures_of_warp_speed = {
+		failures_of_warp_speed = {
 			picture =
 			modifier = {
 				stability_factor = -0.15
@@ -9,7 +9,7 @@ ideas = {
 			}
 		}
 
-		USA_political_polarization = {
+		political_polarization = {
 			picture =
 			modifier = {
 				stability_factor = -0.5
