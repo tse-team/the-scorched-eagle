@@ -4,7 +4,6 @@
 		name = "USA_pompeo_presidency"
 		texturefile = "gfx/interface/goals/USA_pompeo_presidency.dds"
 	}
-
 	##Icon Shine For: The Pompeo Presidency
 	SpriteType = { 
 		name = "USA_pompeo_presidency_shine"
@@ -45,7 +44,7 @@
 
 	##Icon Shine For: Donald Trump Thumbs Up
 	SpriteType = { 
-		name = "GFX_cash_tv_hypnosis.dds_shine"
+		name = "GFX_cash_tv_hypnosis_shine"
 		texturefile = "gfx/interface/goals/USA_donald_trump_yes.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -74,4 +73,43 @@
 		}
 		legacy_lazy_load = no
 	}
+
+    ##Icon For: US Congress
+	SpriteType = { 
+		name = "USA_congress"
+		texturefile = "gfx/interface/goals/USA_congress.dds"
+	}
+
+	##Icon Shine For: US Congress
+	SpriteType = { 
+		name = "USA_congress_shine"
+		texturefile = "gfx/interface/goals/USA_congress.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/USA_congress.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/USA_congress.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+ }
  }
