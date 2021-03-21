@@ -1,0 +1,2330 @@
+focus_tree = {
+	id = SOV_starting_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	#Focus for Aid African Socialists
+	focus = {
+		id = SOV_aid_african_socialists
+		icon = GFX_SOV_aid_african_socialists-83935
+		x = 7
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_reach_out_to_more_communist_parties }
+		mutually_exclusive = { focus = SOV_latin_american_socialism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for The Age of Carriers
+	focus = {
+		id = SOV_the_age_of_carriers
+		icon = GFX_goal_generic_navy_carrier
+		x = 62
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_red_fleet_surface_supremacy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Anti-Capitalist Bulwark
+	focus = {
+		id = SOV_anticapitalist_bulwark
+		icon = GFX_goal_support_communism
+		x = 14
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_retake_hungary }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Guide Arab Socialism
+	focus = {
+		id = SOV_guide_arab_socialism
+		icon = GFX_focus_TUR_turanist_ambition
+		x = 8
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_fund_communist_uprisings_in_africa }
+		mutually_exclusive = { focus = SOV_focus_on_africa }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Soviet Immigration
+	focus = {
+		id = SOV_soviet_immigration
+		icon = GFX_SOV_soviet_immigration-87251
+		x = 11
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_recruit_from_the_eastern_bloc }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Retain Some State Monopolies
+	focus = {
+		id = SOV_retain_some_state_monopolies
+		icon = GFX_goal_demand_sudetenland
+		x = 19
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_the_soviet_household_responsibility_system }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Local and State Competition
+	focus = {
+		id = SOV_local_and_state_competition
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 21
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_local_economic_experimentation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Soviet Special Economic Zones
+	focus = {
+		id = SOV_soviet_special_economic_zones
+		icon = GFX_goal_generic_trade
+		x = 21
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_the_soviet_household_responsibility_system }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Local Economic Experimentation
+	focus = {
+		id = SOV_local_economic_experimentation
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 20
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_follow_the_path_of_deng_xiaoping }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for The Soviet Household Responsibility System
+	focus = {
+		id = SOV_the_soviet_household_responsibility_system
+		icon = GFX_SOV_the_soviet_household_responsibility_system-88199
+		x = 20
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_local_and_state_competition 
+		}
+		prerequisite = { 
+			focus = SOV_financial_liberalization 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Destroy the Whole Rotten Structure
+	focus = {
+		id = SOV_destroy_the_whole_rotten_structure
+		icon = GFX_focus_generic_strike_at_democracy3
+		x = 14
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_anticapitalist_bulwark }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for State Investments
+	focus = {
+		id = SOV_state_investments
+		icon = GFX_SOV_state_investments-84286
+		x = 61
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Expand Tulamashzavod Arms Plants
+	focus = {
+		id = SOV_expand_tulamashzavod_arms_plants
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 65
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_expand_antonov_production }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Upgrade Far Eastern Ports
+	focus = {
+		id = SOV_upgrade_far_eastern_ports
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 69
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_vladivostok_naval_facility_expansion }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Expand Antonov Production
+	focus = {
+		id = SOV_expand_antonov_production
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 65
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_invest_in_heavy_industry }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Vladivostok Naval Facility Expansion
+	focus = {
+		id = SOV_vladivostok_naval_facility_expansion
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 69
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_invest_in_heavy_industry }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Anti-Imperialist Intervention
+	focus = {
+		id = SOV_antiimperialist_intervention
+		icon = GFX_focus_YUG_pan_slavic_congress
+		x = 15
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_remembrance_of_the_great_patriotic_war }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Fund a Naxalite Uprising
+	focus = {
+		id = SOV_fund_a_naxalite_uprising
+		icon = GFX_SOV_fund_a_naxalite_uprising-88809
+		x = 25
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_guarantee_the_pakistan_route }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Develop the Ukrainian Chemical Industry
+	focus = {
+		id = SOV_develop_the_ukrainian_chemical_industry
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 59
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_update_the_stalingrad_tractor_plant }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Invest in Byelorussian Steel Works
+	focus = {
+		id = SOV_invest_in_byelorussian_steel_works
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 63
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_reopen_textile_mills }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Update the Stalingrad Tractor Plant
+	focus = {
+		id = SOV_update_the_stalingrad_tractor_plant
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 59
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_invest_in_light_industry }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Support the Vietnamese
+	focus = {
+		id = SOV_support_the_vietnamese
+		icon = GFX_SOV_support_the_vietnamese-86177
+		x = 32
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_guarantee_asian_socialist_independence }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Reopen Textile Mills
+	focus = {
+		id = SOV_reopen_textile_mills
+		icon = GFX_SOV_reopen_textile_mills-84295
+		x = 63
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_invest_in_light_industry }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for And a Metro in Every City
+	focus = {
+		id = SOV_and_a_metro_in_every_city
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 53
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_a_railroad_in_every_town }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for New Socialist Icons
+	focus = {
+		id = SOV_new_socialist_icons
+		icon = GFX_focus_por_workers_of_iberia
+		x = 23
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_the_new_soviet_life }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Connect Siberia to Moscow
+	focus = {
+		id = SOV_connect_siberia_to_moscow
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 57
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_invest_in_the_railways }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Invest in Heavy Industry
+	focus = {
+		id = SOV_invest_in_heavy_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 67
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_state_investments }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Invest in the Railways
+	focus = {
+		id = SOV_invest_in_the_railways
+		icon = GFX_SOV_invest_in_the_railways-87253
+		x = 55
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_state_investments }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Down with Imperialists!
+	focus = {
+		id = SOV_down_with_imperialists
+		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
+		x = 10
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_socialist_internationalism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Steppe Railway Expansion
+	focus = {
+		id = SOV_steppe_railway_expansion
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 57
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_connect_siberia_to_moscow }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for A New Era, A New Socialism
+	focus = {
+		id = SOV_a_new_era_a_new_socialism
+		icon = GFX_goal_generic_soviet_construction
+		x = 29
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_tear_down_the_cult_of_personality }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Financial Liberalization
+	focus = {
+		id = SOV_financial_liberalization
+		icon = GFX_focus_por_workers_of_iberia
+		x = 19
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_local_economic_experimentation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Tear Down the Cult of Personality
+	focus = {
+		id = SOV_tear_down_the_cult_of_personality
+		icon = GFX_SOV_tear_down_the_cult_of_personality-87252
+		x = 29
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_continue_economic_reforms }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Unity, Not Nationalism
+	focus = {
+		id = SOV_unity_not_nationalism
+		icon = GFX_SOV_unity_not_nationalism-84308
+		x = 9
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_purge_the_revisionists }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Blot out the Sky
+	focus = {
+		id = SOV_blot_out_the_sky
+		icon = GFX_goal_generic_army_artillery2
+		x = 59
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_the_army }
+		mutually_exclusive = { focus = SOV_mechanized_supremacy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for The Katyusha Orchestra
+	focus = {
+		id = SOV_the_katyusha_orchestra
+		icon = GFX_goal_generic_occupy_start_war
+		x = 59
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_blot_out_the_sky }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Spread the Revolution Across the Pacific
+	focus = {
+		id = SOV_spread_the_revolution_across_the_pacific
+		icon = GFX_goal_unknown
+		x = 29
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_strike_the_heart_of_the_pacific 
+			focus = SOV_bring_thailand_into_the_fold 
+			focus = SOV_fund_a_naxalite_uprising 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Guarantee the Pakistan Route
+	focus = {
+		id = SOV_guarantee_the_pakistan_route
+		icon = GFX_SOV_guarantee_the_pakistan_route-84178
+		x = 25
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_ensure_afghan_cooperation 
+		}
+		prerequisite = { 
+			focus = SOV_expand_central_asian_infrastructure 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Focus on Africa
+	focus = {
+		id = SOV_focus_on_africa
+		icon = GFX_SOV_focus_on_africa-84355
+		x = 6
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_fund_communist_uprisings_in_africa }
+		mutually_exclusive = { 
+			focus = SOV_guide_arab_socialism 
+		}
+		mutually_exclusive = { 
+			focus = SOV_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Latin American Socialism
+	focus = {
+		id = SOV_latin_american_socialism
+		icon = GFX_focus_por_latin_american_communism
+		x = 3
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_reach_out_to_more_communist_parties }
+		mutually_exclusive = { focus = SOV_aid_african_socialists }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Modern SAMs
+	focus = {
+		id = SOV_modern_sams
+		icon = GFX_focus_rocketry
+		x = 69
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_war_in_the_sky }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Bring Thailand Into the Fold
+	focus = {
+		id = SOV_bring_thailand_into_the_fold
+		icon = GFX_SOV_bring_thailand_into_the_fold-86139
+		x = 33
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_revive_the_partai_komunis_indonesia }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Revive the Partai Komunis Indonesia
+	focus = {
+		id = SOV_revive_the_partai_komunis_indonesia
+		icon = GFX_SOV_revive_the_partai_komunis_indonesia-86296
+		x = 33
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_support_the_vietnamese 
+		}
+		prerequisite = { 
+			focus = SOV_bring_aid_to_filipino_communists 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for The New Soviet Life
+	focus = {
+		id = SOV_the_new_soviet_life
+		icon = GFX_SOV_the_new_soviet_life-84289
+		x = 23
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_socialist_oriented_markets }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for South-East Asian Socialist Expansion
+	focus = {
+		id = SOV_southeast_asian_socialist_expansion
+		icon = GFX_focus_usa_focus_on_asia
+		x = 31
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_a_new_era_a_new_socialism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Force Allegiance
+	focus = {
+		id = SOV_force_allegiance
+		icon = GFX_goal_generic_forceful_treaty
+		x = 13
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_rethink_the_eastern_bloc }
+		mutually_exclusive = { focus = SOV_guide_european_socialists }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Reinforce The Black Berets
+	focus = {
+		id = SOV_reinforce_the_black_berets
+		icon = GFX_goal_generic_amphibious_assault
+		x = 30
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_build_up_the_pacific_red_fleet }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Bring Mandela's Dream to Fruition
+	focus = {
+		id = SOV_bring_mandelas_dream_to_fruition
+		icon = GFX_SOV_bring_mandelas_dream_to_fruition-84306
+		x = 12
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_retake_hungary }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Red Fleet Surface Supremacy
+	focus = {
+		id = SOV_red_fleet_surface_supremacy
+		icon = GFX_goal_generic_navy_battleship
+		x = 62
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_the_navy }
+		mutually_exclusive = { focus = SOV_underwater_blockades }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for The Airforce
+	focus = {
+		id = SOV_the_airforce
+		icon = GFX_SOV_the_airforce-84290
+		x = 68
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_begin_modernizing_the_armed_forces }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for The Navy
+	focus = {
+		id = SOV_the_navy
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 63
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_begin_modernizing_the_armed_forces }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for The Army
+	focus = {
+		id = SOV_the_army
+		icon = GFX_goal_generic_army_doctrines
+		x = 58
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_begin_modernizing_the_armed_forces }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Rethink The Eastern Bloc
+	focus = {
+		id = SOV_rethink_the_eastern_bloc
+		icon = GFX_SOV_rethink_the_eastern_bloc-84923
+		x = 11
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_venerate_our_leaders 
+		}
+		prerequisite = { 
+			focus = SOV_reject_opportunism 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Autonomy for All Peoples
+	focus = {
+		id = SOV_autonomy_for_all_peoples
+		icon = GFX_SOV_autonomy_for_all_peoples-84309
+		x = 23
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_new_socialist_icons }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Bring True Burmese Socialism
+	focus = {
+		id = SOV_bring_true_burmese_socialism
+		icon = GFX_SOV_bring_true_burmese_socialism-86891
+		x = 34
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_bring_thailand_into_the_fold }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Reach Out to More Communist Parties
+	focus = {
+		id = SOV_reach_out_to_more_communist_parties
+		icon = GFX_focus_ger_great_red_menace
+		x = 5
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_venerate_our_leaders 
+		}
+		prerequisite = { 
+			focus = SOV_reject_opportunism 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for this is just for window manuvering
+	focus = {
+		id = SOV_this_is_just_for_window_manuvering
+		icon = GFX_goal_unknown
+		x = 60
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Pull Troops Out of Poland
+	focus = {
+		id = SOV_pull_troops_out_of_poland
+		icon = GFX_focus_generic_polish_deal
+		x = 20
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_reach_out_to_chinese_advisors 
+			focus = SOV_opening_up_the_economy 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Opening up the Economy
+	focus = {
+		id = SOV_opening_up_the_economy
+		icon = GFX_goal_generic_trade
+		x = 23
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_continue_economic_reforms }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Reach out to Chinese Advisors
+	focus = {
+		id = SOV_reach_out_to_chinese_advisors
+		icon = GFX_focus_chi_one_china_policy
+		x = 20
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_continue_economic_reforms }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Reject Opportunism
+	focus = {
+		id = SOV_reject_opportunism
+		icon = GFX_focus_por_workers_of_iberia
+		x = 7
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_continue_the_marxistleninst_line }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for A Real Iron Curtain
+	focus = {
+		id = SOV_a_real_iron_curtain
+		icon = GFX_SOV_a_real_iron_curtain-84292
+		x = 15
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_force_allegiance }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Guide European Socialists
+	focus = {
+		id = SOV_guide_european_socialists
+		icon = GFX_goal_generic_major_alliance
+		x = 11
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_rethink_the_eastern_bloc }
+		mutually_exclusive = { focus = SOV_force_allegiance }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Fund Communist Uprisings in Latin America
+	focus = {
+		id = SOV_fund_communist_uprisings_in_latin_america
+		icon = GFX_SOV_fund_communist_uprisings_in_latin_america-83992
+		x = 3
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_latin_american_socialism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Modern AT Weapons
+	focus = {
+		id = SOV_modern_at_weapons
+		icon = GFX_SOV_modern_at_weapons-84353
+		x = 59
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_the_katyusha_orchestra }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Modern AAA
+	focus = {
+		id = SOV_modern_aaa
+		icon = GFX_focus_generic_air_defense
+		x = 69
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_modern_sams }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Support the Frontlines
+	focus = {
+		id = SOV_support_the_frontlines
+		icon = GFX_SOV_support_the_frontlines-84291
+		x = 64
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_the_airforce }
+		mutually_exclusive = { focus = SOV_war_in_the_sky }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for War in the Sky
+	focus = {
+		id = SOV_war_in_the_sky
+		icon = GFX_goal_generic_air_fighter2
+		x = 69
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_the_airforce }
+		mutually_exclusive = { focus = SOV_support_the_frontlines }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Hit and Run Tactics
+	focus = {
+		id = SOV_hit_and_run_tactics
+		icon = GFX_focus_generic_destroyer
+		x = 64
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_underwater_blockades }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for A Russian Autobahn
+	focus = {
+		id = SOV_a_russian_autobahn
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 55
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_steppe_railway_expansion 
+		}
+		prerequisite = { 
+			focus = SOV_and_a_metro_in_every_city 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Create the Gornostrelki
+	focus = {
+		id = SOV_create_the_gornostrelki
+		icon = GFX_goal_generic_special_forces
+		x = 57
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_a_dollar_for_a_tank }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Expand the VDV
+	focus = {
+		id = SOV_expand_the_vdv
+		icon = GFX_focus_generic_paratrooper
+		x = 67
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_quicker_agms }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Quicker AGMs
+	focus = {
+		id = SOV_quicker_agms
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 67
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_support_the_frontlines }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Socialism Exportation
+	focus = {
+		id = SOV_socialism_exportation
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 5
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_fund_communist_uprisings_in_africa 
+			focus = SOV_fund_communist_uprisings_in_latin_america 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for A Hands Off Approach
+	focus = {
+		id = SOV_a_hands_off_approach
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 11
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_guide_european_socialists }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Adopt Cruisers for Raiding
+	focus = {
+		id = SOV_adopt_cruisers_for_raiding
+		icon = GFX_focus_generic_navy_battleship2
+		x = 64
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_hit_and_run_tactics }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for 21st Century Advancements
+	focus = {
+		id = SOV_21st_century_advancements
+		icon = GFX_focus_research2
+		x = 64
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_expand_tulamashzavod_arms_plants 
+			focus = SOV_upgrade_far_eastern_ports 
+			focus = SOV_invest_in_byelorussian_steel_works 
+			focus = SOV_develop_the_ukrainian_chemical_industry 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for A Dollar for a Tank
+	focus = {
+		id = SOV_a_dollar_for_a_tank
+		icon = GFX_SOV_a_dollar_for_a_tank-84293
+		x = 57
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_mechanized_supremacy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Rise of Zhirinovsky
+	focus = {
+		id = SOV_rise_of_zhirinovsky
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 44
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_convince_the_airforce 
+		}
+		prerequisite = { 
+			focus = SOV_coerce_the_generals 
+		}
+		prerequisite = { 
+			focus = SOV_bribe_the_admirals 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Nationalism in the Ranks
+	focus = {
+		id = SOV_nationalism_in_the_ranks
+		icon = GFX_SOV_nationalism_in_the_ranks-84820
+		x = 38
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_revive_the_white_movement }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Strike the Heart of the Pacific
+	focus = {
+		id = SOV_strike_the_heart_of_the_pacific
+		icon = GFX_focus_attack_japan
+		x = 29
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_new_soviet_naval_doctrine 
+		}
+		prerequisite = { 
+			focus = SOV_reinforce_the_black_berets 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Ensure Afghan Cooperation
+	focus = {
+		id = SOV_ensure_afghan_cooperation
+		icon = GFX_focus_CZE_german_puppet
+		x = 24
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_sinosoviet_army_exercises }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Sino-Soviet Army Exercises
+	focus = {
+		id = SOV_sinosoviet_army_exercises
+		icon = GFX_SOV_sinosoviet_army_exercises-84171
+		x = 25
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_a_revolution_through_force }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Guarantee Asian Socialist Independence
+	focus = {
+		id = SOV_guarantee_asian_socialist_independence
+		icon = GFX_SOV_guarantee_asian_socialist_independence-84134
+		x = 33
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_southeast_asian_socialist_expansion }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Continue Economic Reforms
+	focus = {
+		id = SOV_continue_economic_reforms
+		icon = GFX_SOV_continue_economic_reforms-88841
+		x = 25
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_the_33rd_congress_of_the_communist_party }
+		mutually_exclusive = { 
+			focus = SOV_continue_the_marxistleninst_line 
+		}
+		mutually_exclusive = { 
+			focus = SOV_congressional_gridlock 
+		}
+		mutually_exclusive = { 
+			focus = SOV_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Continue the Marxist-Leninst Line
+	focus = {
+		id = SOV_continue_the_marxistleninst_line
+		icon = GFX_focus_spr_unify_the_london_bureau
+		x = 9
+		y = 1
+		cost = 3
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_the_33rd_congress_of_the_communist_party }
+		mutually_exclusive = { 
+			focus = SOV_continue_economic_reforms 
+		}
+		mutually_exclusive = { 
+			focus = SOV_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for The 33rd Congress of the Communist Party
+	focus = {
+		id = SOV_the_33rd_congress_of_the_communist_party
+		icon = GFX_SOV_the_33rd_congress_of_the_communist_party-88808
+		x = 23
+		y = 0
+		cost = 2
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power= 100  add_stability= -0.05
+		}
+	}
+	#Focus for Venerate our Leaders
+	focus = {
+		id = SOV_venerate_our_leaders
+		icon = GFX_SOV_venerate_our_leaders-86076
+		x = 11
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_continue_the_marxistleninst_line }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Remembrance of the Great Patriotic War
+	focus = {
+		id = SOV_remembrance_of_the_great_patriotic_war
+		icon = GFX_focus_attack_germany
+		x = 15
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_address_the_pudf 
+		}
+		prerequisite = { 
+			focus = SOV_a_real_iron_curtain 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Socialist Oriented Markets
+	focus = {
+		id = SOV_socialist_oriented_markets
+		icon = GFX_SOV_socialist_oriented_markets-84294
+		x = 23
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_reach_out_to_chinese_advisors 
+			focus = SOV_opening_up_the_economy 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Request Slovak Recognition
+	focus = {
+		id = SOV_request_slovak_recognition
+		icon = GFX_SOV_request_slovak_recognition-83955
+		x = 9
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_guide_european_socialists }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Remembering the Persian SSR
+	focus = {
+		id = SOV_remembering_the_persian_ssr
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 9
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_destabilize_greece }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Fund Communist Uprisings in Africa
+	focus = {
+		id = SOV_fund_communist_uprisings_in_africa
+		icon = GFX_SOV_fund_communist_uprisings_in_africa-83948
+		x = 7
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_aid_african_socialists }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Address the PUDF
+	focus = {
+		id = SOV_address_the_pudf
+		icon = GFX_focus_invite_yugoslavia
+		x = 13
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_force_allegiance }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Destabilize Greece
+	focus = {
+		id = SOV_destabilize_greece
+		icon = GFX_focus_GRE_resurrecting_the_megali_idea
+		x = 9
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_a_hands_off_approach 
+		}
+		prerequisite = { 
+			focus = SOV_request_slovak_recognition 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Retake Hungary
+	focus = {
+		id = SOV_retake_hungary
+		icon = GFX_goal_generic_territory_or_war
+		x = 14
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_antiimperialist_intervention 
+			focus = SOV_destroy_fascist_cells 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal= { 
+type = puppet_wargoal_focus
+target = HUN
+}
+		}
+	}
+	#Focus for Follow the Path of Deng Xiaoping
+	focus = {
+		id = SOV_follow_the_path_of_deng_xiaoping
+		icon = GFX_focus_generic_industry_3
+		x = 20
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_socialist_oriented_markets 
+		}
+		prerequisite = { 
+			focus = SOV_pull_troops_out_of_poland 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Invest in Light Industry
+	focus = {
+		id = SOV_invest_in_light_industry
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 61
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_state_investments }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for A Railroad in Every Town
+	focus = {
+		id = SOV_a_railroad_in_every_town
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 53
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_invest_in_the_railways }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Bring Aid to Filipino Communists
+	focus = {
+		id = SOV_bring_aid_to_filipino_communists
+		icon = GFX_SOV_bring_aid_to_filipino_communists-86185
+		x = 34
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_guarantee_asian_socialist_independence }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for A Revolution Through Force
+	focus = {
+		id = SOV_a_revolution_through_force
+		icon = GFX_goal_generic_territory_or_war
+		x = 27
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_a_new_era_a_new_socialism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Build Up The Pacific Red Fleet
+	focus = {
+		id = SOV_build_up_the_pacific_red_fleet
+		icon = GFX_goal_generic_navy_battleship
+		x = 29
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_a_revolution_through_force 
+		}
+		prerequisite = { 
+			focus = SOV_southeast_asian_socialist_expansion 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Expand Central Asian Infrastructure
+	focus = {
+		id = SOV_expand_central_asian_infrastructure
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 26
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_sinosoviet_army_exercises }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for New Soviet Naval Doctrine
+	focus = {
+		id = SOV_new_soviet_naval_doctrine
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 28
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_build_up_the_pacific_red_fleet }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Begin Modernizing the Armed Forces
+	focus = {
+		id = SOV_begin_modernizing_the_armed_forces
+		icon = GFX_goal_generic_army_doctrines
+		x = 63
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Underwater Blockades
+	focus = {
+		id = SOV_underwater_blockades
+		icon = GFX_goal_generic_navy_submarine
+		x = 67
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_the_navy }
+		mutually_exclusive = { focus = SOV_red_fleet_surface_supremacy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Mechanized Supremacy
+	focus = {
+		id = SOV_mechanized_supremacy
+		icon = GFX_goal_generic_army_motorized
+		x = 57
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_the_army }
+		mutually_exclusive = { focus = SOV_blot_out_the_sky }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Focus on South America
+	focus = {
+		id = SOV_focus_on_south_america
+		icon = GFX_focus_focus_fra_maquis
+		x = 4
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_fund_communist_uprisings_in_latin_america }
+		mutually_exclusive = { focus = SOV_build_up_cuban_naval_bases }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Restructure the Black Berets
+	focus = {
+		id = SOV_restructure_the_black_berets
+		icon = GFX_focus_prc_infiltration
+		x = 62
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_the_age_of_carriers }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Only the NKVD
+	focus = {
+		id = SOV_only_the_nkvd
+		icon = GFX_goal_rhineland
+		x = 13
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_address_the_pudf 
+		}
+		prerequisite = { 
+			focus = SOV_a_real_iron_curtain 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Build up Cuban Naval Bases
+	focus = {
+		id = SOV_build_up_cuban_naval_bases
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 2
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_fund_communist_uprisings_in_latin_america }
+		mutually_exclusive = { focus = SOV_focus_on_south_america }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Recruit From the Eastern Bloc
+	focus = {
+		id = SOV_recruit_from_the_eastern_bloc
+		icon = GFX_focus_generic_manpower
+		x = 11
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_a_hands_off_approach }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Destroy Fascist Cells
+	focus = {
+		id = SOV_destroy_fascist_cells
+		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
+		x = 13
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_only_the_nkvd }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Socialist Internationalism
+	focus = {
+		id = SOV_socialist_internationalism
+		icon = GFX_focus_por_workers_of_iberia
+		x = 10
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_remembering_the_persian_ssr 
+		}
+		prerequisite = { 
+			focus = SOV_soviet_immigration 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Purge the Revisionists
+	focus = {
+		id = SOV_purge_the_revisionists
+		icon = GFX_SOV_purge_the_revisionists-84296
+		x = 9
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_continue_the_marxistleninst_line }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Destroy Eastern Revisionism
+	focus = {
+		id = SOV_destroy_eastern_revisionism
+		icon = GFX_goal_unknown
+		x = 10
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_destroy_the_whole_rotten_structure 
+			focus = SOV_down_with_imperialists 
+			focus = SOV_socialism_exportation 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Return of the GDR
+	focus = {
+		id = SOV_return_of_the_gdr
+		icon = GFX_SOV_return_of_the_gdr-84305
+		x = 16
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_retake_hungary }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Influence the Freedom Alliance
+	focus = {
+		id = SOV_influence_the_freedom_alliance
+		icon = GFX_SOV_influence_the_freedom_alliance-84368
+		x = 24
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_fund_a_naxalite_uprising }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Congressional Gridlock
+	focus = {
+		id = SOV_congressional_gridlock
+		icon = GFX_SOV_congressional_gridlock-88843
+		x = 41
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_the_33rd_congress_of_the_communist_party }
+		mutually_exclusive = { focus = SOV_continue_economic_reforms }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for The Yellow, Black, and White
+	focus = {
+		id = SOV_the_yellow_black_and_white
+		icon = GFX_goal_unknown
+		x = 41
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_congressional_gridlock }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Revive the White Movement
+	focus = {
+		id = SOV_revive_the_white_movement
+		icon = GFX_SOV_revive_the_white_movement-85606
+		x = 38
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_the_yellow_black_and_white }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Sway the Military Leadership
+	focus = {
+		id = SOV_sway_the_military_leadership
+		icon = GFX_goal_generic_position_armies
+		x = 44
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_the_yellow_black_and_white }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Convince the Airforce
+	focus = {
+		id = SOV_convince_the_airforce
+		icon = GFX_goal_generic_build_airforce
+		x = 42
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_sway_the_military_leadership }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Coerce the Generals
+	focus = {
+		id = SOV_coerce_the_generals
+		icon = GFX_goal_generic_small_arms
+		x = 44
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_sway_the_military_leadership }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Bribe the Admirals
+	focus = {
+		id = SOV_bribe_the_admirals
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 46
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_sway_the_military_leadership }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Purge NKVD Communists
+	focus = {
+		id = SOV_purge_nkvd_communists
+		icon = GFX_goal_generic_war_with_comintern
+		x = 38
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_nationalism_in_the_ranks }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Launch the Coup
+	focus = {
+		id = SOV_launch_the_coup
+		icon = GFX_focus_BUL_condemn_macedonian_organizations
+		x = 41
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_purge_nkvd_communists 
+		}
+		prerequisite = { 
+			focus = SOV_rise_of_zhirinovsky 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Begin Privatization
+	focus = {
+		id = SOV_begin_privatization
+		icon = GFX_goal_anti_comintern_pact
+		x = 38
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_launch_the_coup }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Crack Down on Dissent
+	focus = {
+		id = SOV_crack_down_on_dissent
+		icon = GFX_SOV_crack_down_on_dissent-87045
+		x = 36
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_begin_privatization }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Sell off State Industries
+	focus = {
+		id = SOV_sell_off_state_industries
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 38
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_begin_privatization }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for A New Constitution
+	focus = {
+		id = SOV_a_new_constitution
+		icon = GFX_goal_continuous_increase_nu
+		x = 40
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_begin_privatization }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for A New "Republic"
+	focus = {
+		id = SOV_a_new_republic
+		icon = GFX_goal_generic_demand_territory
+		x = 37
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_crack_down_on_dissent 
+		}
+		prerequisite = { 
+			focus = SOV_sell_off_state_industries 
+		}
+		prerequisite = { 
+			focus = SOV_a_new_constitution 
+		}
+		mutually_exclusive = { focus = SOV_zhirinovskys_dictatorship }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Zhirinovsky's Dictatorship
+	focus = {
+		id = SOV_zhirinovskys_dictatorship
+		icon = GFX_SOV_zhirinovskys_dictatorship-86461
+		x = 39
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_crack_down_on_dissent 
+		}
+		prerequisite = { 
+			focus = SOV_sell_off_state_industries 
+		}
+		prerequisite = { 
+			focus = SOV_a_new_constitution 
+		}
+		mutually_exclusive = { focus = SOV_a_new_republic }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for A New Russian Armed Forces
+	focus = {
+		id = SOV_a_new_russian_armed_forces
+		icon = GFX_SOV_a_new_russian_armed_forces-85786
+		x = 44
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Russian Nationalism
+	focus = {
+		id = SOV_russian_nationalism
+		icon = GFX_SOV_russian_nationalism-84409
+		x = 51
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_launch_the_coup }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Suppress Central Asia
+	focus = {
+		id = SOV_suppress_central_asia
+		icon = GFX_SOV_suppress_central_asia-85848
+		x = 48
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_russian_nationalism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for An Iron Grip on the Caucuses
+	focus = {
+		id = SOV_an_iron_grip_on_the_caucuses
+		icon = GFX_SOV_an_iron_grip_on_the_caucuses-87336
+		x = 50
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_russian_nationalism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Crush the Ukrainian Separatists
+	focus = {
+		id = SOV_crush_the_ukrainian_separatists
+		icon = GFX_SOV_crush_the_ukrainian_separatists-86254
+		x = 52
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_russian_nationalism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Integrate the White Russians
+	focus = {
+		id = SOV_integrate_the_white_russians
+		icon = GFX_SOV_integrate_the_white_russians-87046
+		x = 54
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_russian_nationalism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Russian Land for Russians
+	focus = {
+		id = SOV_russian_land_for_russians
+		icon = GFX_goal_unknown
+		x = 53
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_crush_the_ukrainian_separatists 
+		}
+		prerequisite = { 
+			focus = SOV_integrate_the_white_russians 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Encourage Orthodoxy
+	focus = {
+		id = SOV_encourage_orthodoxy
+		icon = GFX_focus_GRE_an_orthodox_state
+		x = 49
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_suppress_central_asia 
+		}
+		prerequisite = { 
+			focus = SOV_an_iron_grip_on_the_caucuses 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Reclaim Alaska
+	focus = {
+		id = SOV_reclaim_alaska
+		icon = GFX_SOV_reclaim_alaska-85533
+		x = 44
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_annex_mongolia 
+		}
+		prerequisite = { 
+			focus = SOV_reclaim_northern_persia 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Retake the Baltic States
+	focus = {
+		id = SOV_retake_the_baltic_states
+		icon = GFX_SOV_retake_the_baltic_states-86791
+		x = 46
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_a_new_russian_armed_forces }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Oppress the Poles
+	focus = {
+		id = SOV_oppress_the_poles
+		icon = GFX_SOV_oppress_the_poles-84402
+		x = 42
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_a_new_russian_armed_forces }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Proclaim Greater Russia
+	focus = {
+		id = SOV_proclaim_greater_russia
+		icon = GFX_SOV_proclaim_greater_russia-85783
+		x = 44
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_reclaim_alaska }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Private Donations to the PSG
+	focus = {
+		id = SOV_private_donations_to_the_psg
+		icon = GFX_SOV_private_donations_to_the_psg-87476
+		x = 41
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_the_yellow_black_and_white }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Send Aid to the Polish Communists
+	focus = {
+		id = SOV_send_aid_to_the_polish_communists
+		icon = GFX_goal_generic_small_arms
+		x = 13
+		y = 3
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_continue_the_marxistleninst_line }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Increase Troop Presence
+	focus = {
+		id = SOV_increase_troop_presence
+		icon = GFX_focus_generic_manpower
+		x = 13
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_send_aid_to_the_polish_communists }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Conquer Finland
+	focus = {
+		id = SOV_conquer_finland
+		icon = GFX_goal_unknown
+		x = 44
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_a_new_russian_armed_forces }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Independent Churches
+	focus = {
+		id = SOV_independent_churches
+		icon = GFX_focus_por_concordat
+		x = 50
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_encourage_orthodoxy 
+		}
+		prerequisite = { 
+			focus = SOV_russian_land_for_russians 
+		}
+		mutually_exclusive = { focus = SOV_zhirinovsky_as_the_new_patriarch }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Zhirinovsky as the New Patriarch
+	focus = {
+		id = SOV_zhirinovsky_as_the_new_patriarch
+		icon = GFX_SOV_zhirinovsky_as_the_new_patriarch-86795
+		x = 52
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_encourage_orthodoxy 
+		}
+		prerequisite = { 
+			focus = SOV_russian_land_for_russians 
+		}
+		mutually_exclusive = { focus = SOV_independent_churches }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Retake Russian Manchuria
+	focus = {
+		id = SOV_retake_russian_manchuria
+		icon = GFX_goal_unknown
+		x = 51
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_an_iron_grip_on_the_caucuses 
+		}
+		prerequisite = { 
+			focus = SOV_crush_the_ukrainian_separatists 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Reclaim Northern Persia
+	focus = {
+		id = SOV_reclaim_northern_persia
+		icon = GFX_goal_unknown
+		x = 43
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_conquer_finland 
+		}
+		prerequisite = { 
+			focus = SOV_oppress_the_poles 
+		}
+		prerequisite = { 
+			focus = SOV_retake_the_baltic_states 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Annex Mongolia
+	focus = {
+		id = SOV_annex_mongolia
+		icon = GFX_SOV_annex_mongolia-87509
+		x = 45
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_conquer_finland 
+		}
+		prerequisite = { 
+			focus = SOV_oppress_the_poles 
+		}
+		prerequisite = { 
+			focus = SOV_retake_the_baltic_states 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Religious Warriors
+	focus = {
+		id = SOV_religious_warriors
+		icon = GFX_SOV_religious_warriors-88304
+		x = 54
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_zhirinovsky_as_the_new_patriarch }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Reach Out to Other Christian Neighbors
+	focus = {
+		id = SOV_reach_out_to_other_christian_neighbors
+		icon = GFX_goal_unknown
+		x = 48
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_independent_churches }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for The Bells of the Orthodox Church...
+	focus = {
+		id = SOV_the_bells_of_the_orthodox_church
+		icon = GFX_goal_unknown
+		x = 52
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_zhirinovsky_as_the_new_patriarch }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Shall Bell From the Mediterranean
+	focus = {
+		id = SOV_shall_bell_from_the_mediterranean
+		icon = GFX_goal_unknown
+		x = 52
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_the_bells_of_the_orthodox_church }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for To The Indian Ocean
+	focus = {
+		id = SOV_to_the_indian_ocean
+		icon = GFX_goal_unknown
+		x = 52
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_shall_bell_from_the_mediterranean }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Bastion of Christian Orthodoxy
+	focus = {
+		id = SOV_bastion_of_christian_orthodoxy
+		icon = GFX_goal_unknown
+		x = 50
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_independent_churches }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Socialism with Soviet Characteristics
+	focus = {
+		id = SOV_socialism_with_soviet_characteristics
+		icon = GFX_focus_chi_cooperation_with_the_communists
+		x = 20
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = SOV_soviet_special_economic_zones 
+		}
+		prerequisite = { 
+			focus = SOV_retain_some_state_monopolies 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for The Soviet Economic Miracle
+	focus = {
+		id = SOV_the_soviet_economic_miracle
+		icon = GFX_SOV_the_soviet_economic_miracle-88345
+		x = 20
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = SOV_socialism_with_soviet_characteristics }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+#End of focuses 
+ }
