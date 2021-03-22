@@ -161,4 +161,118 @@ ideologies = {
 			airforce_intel_to_others = 25.0
 		}
 	}
-}
+
+	marxism_leninism = {
+		dynamic_faction_names = {
+			"FACTION_NAME_MARXISMLENINISM_1"
+		}
+		color = { 255 0 0}
+		rules = {
+			 can_create_collaboration_government = no
+             can_force_government = no
+             can_send_volunteers = no
+             can_puppet = no
+             can_lower_tension = no
+		}
+		modifiers = {
+			join_faction_tension = 1.00
+			generate_wargoal_tension = 1.00
+			lend_lease_tension = 1.00
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 15.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 15.0
+		}
+	}
+
+	anti_revisionary = {
+		dynamic_faction_names = {
+			"FACTION_NAME_ANTIREVISIONARY_1"
+		}
+		color = { 255 0 0}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = no
+		}
+		modifiers = {
+			join_faction_tension = 1.00
+			generate_wargoal_tension = 1.00
+			lend_lease_tension = 1.00
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 15.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 15.0
+		}
+	}
+	
+	juche = {
+		dynamic_faction_names = {
+			"FACTION_NAME_JUCHE_1"
+		}
+		color = { 255 0 0}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = no
+		}
+		modifiers = {
+			join_faction_tension = 1.00
+			generate_wargoal_tension = 1.00
+			lend_lease_tension = 1.00
+			civilian_intel_to_others = 1.0
+			army_intel_to_others = 1.0
+			navy_intel_to_others = 1.0
+			airforce_intel_to_others = 1.0
+	}
+
+	market_socialism = {
+		dynamic_faction_names = {
+			"FACTION_NAME_MARKETSOCIALISM_1"
+		}
+		color = { 255 0 0}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = no
+		}
+		modifiers = {
+			join_faction_tension = 1.00
+			generate_wargoal_tension = 1.00
+			lend_lease_tension = 1.00
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 20.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 20.0
+		}
+	}
+
+	democratic_socialism = {
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMSOC_1"
+		}
+		color = { 255 0 0}
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = no
+		}
+		modifiers = {
+			join_faction_tension = 1.00
+			generate_wargoal_tension = 1.00
+			lend_lease_tension = 1.00
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 20.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 20.0
+		}
+	}	
+}	
