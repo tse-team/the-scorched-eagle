@@ -112,4 +112,24 @@
 		}
 		legacy_lazy_load = no
 	}
+
+	spriteType = {
+		name = "GFX_broken_bank_idea"
+		textureFile = "gfx/interface/ideas/GFX_broken_bank_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_communism_idea"
+		textureFile = "gfx/interface/ideas/GFX_communism_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ethnic_tensions_idea"
+		textureFile = "gfx/interface/ideas/GFX_ethnic_tensions_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_money_away_idea"
+		textureFile = "gfx/interface/ideas/GFX_money_away_idea.dds"
+	}
 }
