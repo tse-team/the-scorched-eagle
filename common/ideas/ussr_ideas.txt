@@ -2,7 +2,7 @@ ideas = {
     country = {
 
         communist_bastion = {
-            picture = 
+            picture = GFX_communism_idea
             modifier = {
                 marxism_leninism_drift = 0.05
                 drift_defence_factor = 0.25
@@ -11,7 +11,7 @@ ideas = {
         }
 
         ethnic_sepratists = {
-            picture = 
+            picture = GFX_ethnic_tensions_idea
             modifier = {
                 stability_factor = -0.10
                 conscription_factor = 0.95
@@ -19,7 +19,7 @@ ideas = {
         }
 
         eastern_bloc_funding = {
-            picture = 
+            picture = GFX_money_away_idea
             modifier = {
                 political_power_factor = -0.25
                 consumer_goods_factor = 0.05
@@ -27,7 +27,7 @@ ideas = {
         }
 
         stagnant_economy = {
-            picture = 
+            picture = GFX_broken_bank_idea
             modifier = {
                 consumer_goods_factor = 0.20
                 industrial_capacity_factory = -0.15
