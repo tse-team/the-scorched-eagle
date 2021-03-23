@@ -114,22 +114,22 @@
 	}
 
 	spriteType = {
-		name = "GFX_broken_bank_idea"
+		name = "GFX_idea_broken_bank"
 		textureFile = "gfx/interface/ideas/GFX_broken_bank_idea.dds"
 	}
 
 	spriteType = {
-		name = "GFX_communism_idea"
+		name = "GFX_idea_communism"
 		textureFile = "gfx/interface/ideas/GFX_communism_idea.dds"
 	}
 
 	spriteType = {
-		name = "GFX_ethnic_tensions_idea"
+		name = "GFX_idea_ethnic_tensions"
 		textureFile = "gfx/interface/ideas/GFX_ethnic_tensions_idea.dds"
 	}
 
 	spriteType = {
-		name = "GFX_money_away_idea"
+		name = "GFX_idea_money_away"
 		textureFile = "gfx/interface/ideas/GFX_money_away_idea.dds"
 	}
 }
