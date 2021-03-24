@@ -1,4 +1,4 @@
-﻿capital = 386
+capital = 386
 set_research_slots = 3
 set_stability = 100
 set_war_support = 100
@@ -9,7 +9,7 @@ set_research_slots = 3
 
 #For start date 2025.1.1
 2025.1.1 = {
-	add_political_power = 500
+	add_political_power = 250
 
 	#complete_national_focus = YOUR_FOCUS_ID
 	#complete_national_focus = YOUR_FOCUS_ID
@@ -24,7 +24,7 @@ set_politics = {
 	ruling_party = democratic
 	last_election = "1935.1.20"
 	election_frequency = 1080
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 87
