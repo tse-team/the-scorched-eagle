@@ -44,7 +44,7 @@
 
 	##Icon Shine For: Donald Trump Thumbs Up
 	SpriteType = { 
-		name = "GFX_cash_tv_hypnosis_shine"
+		name = "USA_donald_trump_yes_shine"
 		texturefile = "gfx/interface/goals/USA_donald_trump_yes.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
