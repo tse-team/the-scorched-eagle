@@ -83,7 +83,7 @@
 
 	##Icon Shine For: Television Propaganda
 	SpriteType = { 
-		name = "GFX_cash_tv_hypnosis.dds_shine"
+		name = "GFX_cash_tv_hypnosis_shine"
 		texturefile = "gfx/interface/goals/GFX_cash_tv_hypnosis.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
