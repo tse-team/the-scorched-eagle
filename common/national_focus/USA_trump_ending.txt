@@ -3,14 +3,14 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 10
-			tag = CAN
+			add = 25
+			tag = USA
 		}
 	}
 	#Focus for The Dream Lives On
 	focus = {
 		id = USA_the_dream_lives_on
-		icon = GFX_USA_the_dream_lives_on-86140
+		icon = GFX_white_house_liberty
 		x = 7
 		y = 3
 		cost = 0.8
@@ -32,7 +32,7 @@ focus_tree = {
 	#Focus for The Best Economy
 	focus = {
 		id = USA_the_best_economy
-		icon = GFX_USA_the_best_economy-84851
+		icon = GFX_factory_industry
 		x = 9
 		y = 2
 		cost = 0.8
@@ -49,7 +49,7 @@ focus_tree = {
 	#Focus for The Best President
 	focus = {
 		id = USA_the_best_president
-		icon = GFX_USA_the_best_president-87280
+		icon = USA_donald_trump_yes
 		x = 5
 		y = 2
 		cost = 0.8
@@ -66,7 +66,7 @@ focus_tree = {
 	#Focus for The Finest Job
 	focus = {
 		id = USA_the_finest_job
-		icon = GFX_USA_the_finest_job-85908
+		icon = GFX_cash_tv_hypnosis
 		x = 7
 		y = 1
 		cost = 0.8
